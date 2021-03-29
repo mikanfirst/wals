@@ -74,4 +74,59 @@ header {
 .p-group {
   display: flex;
   flex-wrap: wrap;
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+.box {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+.p-image:nth-child(3n) {
+  margin-right: 0;
+}
+.p-image:nth-child(-n + 3) {
+  margin-top: 0;
+}
+.p-image:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+.p-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+}
+.p-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+.p-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+.p-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+}
+.p-image:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
+#feature {
+  width: 100%;
+}
+.f-group {
+  display: flex;
+  text-align: center;
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+.f-box {
+  width: 320px;
+  height: auto;
+}
+.f-text {
+  text-align: left;
+  margin: 10px 10px 0 0;
+}
+i {
+  font-size: 60px;
 }

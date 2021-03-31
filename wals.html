@@ -1,6 +1,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a730322631.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="wals.css" />
     <title>WALS</title>
@@ -11,12 +12,25 @@
         <a href="#mv">
           <img class="logo" src="img/logo.png" alt="ロゴ">
         </a>
-        <nav>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="globalMenuSp">
           <ul class="nav">
-            <li class="nav-list">Portforio</li>
-            <li class="nav-list">Feature</li>
-            <li class="nav-list">Profile</li>
-            <li class="nav-list">Contact</li>
+            <li class="nav-list">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-list">
+              <a href="#feature">Feature</a>
+            </li>
+            <li class="nav-list">
+              <a href="#profile">Profile</a>
+            </li>
+            <li class="nav-list">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -73,6 +87,61 @@
       </div>
     </section>
 
-    <footer></footer>
+    <section id="profile">
+      <div class="container">
+        <h1 class="heading">Profile</h1>
+        <p class="heading-text">
+          It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <div class="profile-group">
+          <div class="content-left">
+            <div class="my-face"></div>
+          </div>
+          <div class="content-right">
+            <div class="">
+              <h4 class="profile-head">MyName</h4>
+              <p class="profile-text">
+                Contrary to popular belief, Lorem Ipsum is not simply randomtext. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+              </p>
+              <h4 class="profile-head">MySkill</h4>
+              <p class="profile-text">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1 class="heading">Contact</h1>
+        <p class="heading-text">
+          It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+      </div>
+      <div class="c-group">
+        <div class="c-left">
+          <h3 class="profile-head">Mail</h3>
+          <p class="profile-text">xxx@xxxx.com</p>
+          <h3 class="profile-head">tel</h3>
+          <p class="profile-text">xxx-xxxx-xxxx</p>
+        </div>
+        <div class="c-right">
+          <h3 class="profile-head">SNS</h3>
+          <div class="icon">
+            <i class="fab fa-facebook-f fa"></i>
+            <i class="fab fa-twitter fa"></i>
+            <i class="fab fa-instagram fa"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2021 WebCamp</p>
+    </footer>
   </body>
 </html>
